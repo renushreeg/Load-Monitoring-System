@@ -1,0 +1,23 @@
+.channelMain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    .channel {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .channelChip {
+        width: 100%;
+
+        .channelStack {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.graphMain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    .graph {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .graphChip {
+        width: 100%;
+
+        .graphStack {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
